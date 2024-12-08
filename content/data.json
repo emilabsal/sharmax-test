@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "value": "130km/h",
+      "description": "Conquering the limits of speed",
+      "img": "/images/img1.png"
+    },
+    {
+      "value": "265kg",
+      "description": "Optimal weight for lightness",
+      "img": "/images/img2.png"
+    },
+    {
+      "value": "27.00hp",
+      "description": "The power of the beast inside",
+      "img": "/images/img3.png"
+    },
+    {
+      "value": "280сс",
+      "description": "Thoughtful structure of every detail",
+      "img": "/images/img.png"
+    }
+  ]
+}

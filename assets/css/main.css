@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(/assets/fonts/SFProText-Medium.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(/assets/fonts/SFProText-Semibold.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(/assets/fonts/HelveticaNeue-Light.otf) format('opentype');
+  }
+
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .header {
+    @apply font-header font-semibold text-header max-sm:text-headerSm leading-header text-center;
+  }
+
+  .title {
+   @apply font-title max-sm:text-titleSm font-medium text-title; 
+  }
+
+  .text {
+    @apply font-text font-light font-text text-text max-sm:text-textSm leading-text text-center;
+  }
+
+  .block {
+    @apply bg-block py-[40px] px-[64px] rounded-[24px] w-full;
+  }
+
+  .button {
+    @apply border border-text rounded-[4px] h-[32px] px-2 text-text cursor-pointer;
+  }
+
+  .button-active {
+    @apply bg-sky-100;
+  }
+  
+}

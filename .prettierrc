@@ -1,0 +1,6 @@
+{
+  "trailingComma": "none",
+  "singleAttributePerLine": true,
+  "singleQuote": true,
+  "semi": false
+}
